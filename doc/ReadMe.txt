@@ -1,0 +1,7 @@
+本项目是基于Matalb的m7G预测模型
+首先需要对RNA序列特征提取，需要使用py文件夹下的程序，RNA序列输入格式为txt和fasta，不允许出现空行断行，
+第一步利用fasta格式文件通过binary.py得到一个binary.csv文件，
+第二步利用txt格式文件通过pseKNC.py得到pseKNC.csv文件，
+第三部利用txt格式文件依次通过npf.py和npftocsv.py得到npf.csv
+然后打开matlab文件夹，里面有model模型和app软件，首先将model模型放在C盘文件目录下，然后打开app软件，输入上述三个csv文件，运行就可以得到
+m7G预测结果
