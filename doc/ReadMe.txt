@@ -1,0 +1,2 @@
+首先依次执行py文件夹下的三个程序，然后将matlab文件下的model放在C盘路径下
+然后执行matlab文件夹下的m7G_predict_model软件 就可以对m7G修饰位点进行预测
